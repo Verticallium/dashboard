@@ -29,17 +29,16 @@ class DeviceData extends Model
 
     protected $appends = ["tem_avg", "hum_avg", "light_avg"];
 
-
     public function getTemperature() {
-        return $this->get(['tem1', 'tem2', 'tem3', 'tem4', 'created_at'], 'tem_avg');
+        return $this->get(['id', 'tem1', 'tem2', 'tem3', 'tem4', 'created_at'], 'tem_avg');
     }
 
     public function getHumidity() {
-        return $this->get(['hum1', 'hum2', 'hum3', 'created_at'], 'hum_avg');
+        return $this->get(['id','hum1', 'hum2', 'hum3', 'created_at'], 'hum_avg');
     }
 
     public function getLighting() {
-        return $this->get(['light1', 'light2', 'light3', 'light4', 'created_at'], 'light_avg');
+        return $this->get(['id','light1', 'light2', 'light3', 'light4', 'created_at'], 'light_avg');
     }
 
     public function getTemAvgAttribute() {

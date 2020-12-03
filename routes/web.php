@@ -118,4 +118,9 @@ Route::group(['middleware' => ['get.menu']], function () {
             Route::get('/file/copy',        'MediaController@fileCopy')->name('media.file.copy');
         });
     });
+
+    Route::get('/temperature', function () {    return view('dashboard.farm.temperature'); });
+    Route::get('/humidity', function () {    return view('dashboard.farm.humidity'); });
+    Route::get('/lighting', function () {    return view('dashboard.farm.lighting'); });
+
 });

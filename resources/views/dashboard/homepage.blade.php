@@ -16,31 +16,51 @@
                               <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
                             </svg>
                           </button>
-                          <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Promedio</a>
+                            <a class="dropdown-item" href="#">Sensor 1</a>
+                            <a class="dropdown-item" href="#">Sensor 2</a>
+                            <a class="dropdown-item" href="#">Sensor 3</a>
+                            <a class="dropdown-item" href="#">Sensor 4</a>
+                            <a class="dropdown-item" href="/temperature">Vista completa...</a>
+                          </div>
                         </div>
                         <div class="text-value-lg">24°C</div>
                         <div>Temperatura</div>
                       </div>
-                      <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
-                        <canvas class="chart" id="card-chart1" height="70"></canvas>
-                      </div>
+                      <a href="/temperature">
+                        <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
+                          <canvas class="chart" id="card-chart1" height="70"></canvas>
+                        </div>
+                      </a>
                     </div>
                   </div>
                   <!-- /.col-->
                   <div class="col-sm-6 col-lg-3">
                     <div class="card text-white bg-info">
                       <div class="card-body pb-0">
-                        <button class="btn btn-transparent p-0 float-right" type="button">
-                          <svg class="c-icon">
-                            <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-location-pin"></use>
-                          </svg>
-                        </button>
+                        <div class="btn-group float-right">
+                          <button class="btn btn-transparent dropdown-toggle p-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <svg class="c-icon">
+                              <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
+                            </svg>
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Promedio</a>
+                            <a class="dropdown-item" href="#">Sensor 1</a>
+                            <a class="dropdown-item" href="#">Sensor 2</a>
+                            <a class="dropdown-item" href="#">Sensor 3</a>
+                            <a class="dropdown-item" href="/humidity">Vista completa...</a>
+                          </div>
+                        </div>
                         <div class="text-value-lg">63%</div>
                         <div>Humedad</div>
                       </div>
-                      <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
-                        <canvas class="chart" id="card-chart2" height="70"></canvas>
-                      </div>
+                      <a href="/humidity">
+                        <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
+                          <canvas class="chart" id="card-chart2" height="70"></canvas>
+                        </div>
+                      </a>
                     </div>
                   </div>
                   <!-- /.col-->
@@ -53,7 +73,14 @@
                               <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
                             </svg>
                           </button>
-                          <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Promedio</a>
+                            <a class="dropdown-item" href="#">Sensor 1</a>
+                            <a class="dropdown-item" href="#">Sensor 2</a>
+                            <a class="dropdown-item" href="#">Sensor 3</a>
+                            <a class="dropdown-item" href="#">Sensor 4</a>
+                            <a class="dropdown-item" href="/lighting">Vista completa...</a>
+                          </div>
                         </div>
                         <div class="text-value-lg">40%</div>
                         <div>Luminosidad</div>
@@ -73,7 +100,9 @@
                               <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
                             </svg>
                           </button>
-                          <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="/ph">Vista completa...</a>
+                          </div>
                         </div>
                         <div class="text-value-lg">0.67</div>
                         <div>PH</div>

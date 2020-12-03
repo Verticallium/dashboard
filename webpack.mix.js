@@ -35,6 +35,9 @@ mix.copy('node_modules/@coreui/chartjs/dist/js/coreui-chartjs.bundle.js', 'publi
 mix.copy('node_modules/cropperjs/dist/cropper.js', 'public/js');
 // details scripts
 mix.copy('resources/js/coreui/main.js', 'public/js');
+mix.copy('resources/js/coreui/temperature.js', 'public/js');
+mix.copy('resources/js/coreui/humidity.js', 'public/js');
+mix.copy('resources/js/coreui/lighting.js', 'public/js');
 mix.copy('resources/js/coreui/colors.js', 'public/js');
 mix.copy('resources/js/coreui/charts.js', 'public/js');
 mix.copy('resources/js/coreui/widgets.js', 'public/js');
